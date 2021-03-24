@@ -1,0 +1,25 @@
+#include "stdlib.h"
+#include "iostream"
+#include "tchar.h"
+using namespace std;
+int _tmain(int argc,_TCHAR* argv[])
+{
+  system("color D1");
+    cout << "        " << char(46) << char(45) << char(46) << " " << char(95) << " " << char(95) << " " << char(95) << " " << char(95) << " " << char(46)<< char(45) << char(46) << endl;
+    cout << "         " << char(33) << "         " << char(47) << " " << char(92) << " " << char(33) <<endl;
+    cout << "        " << char(47) << "        " << char(39) << char(46) << char(60) << char(62) <<char(45) <<char(45) <<char(92) << endl;
+    cout << "       " << char(33) << "            " << char(39) << " " << char(46) << char(95) << char(47) << char(46) << endl;
+    cout << "      " << char(95) << char(33) << "    " << char(48) << "  " << char(95) << "  " << char(48) << "     " << char(33) << char(95) << endl;
+    cout << "      " << char(61) << char(92) << "     " << char(39) << "   " << char(39) << "      " << char(47) << char(61) <<endl;
+    cout << "         " << char(44) <<char(95) << "            " << char(95) << char(44) << endl;
+    cout << "          " << char(46) << " " <<char(95) << " " << char(95) << " " << char(95) << " " << char(95) << " " << char(46) << " " << char(45) << char(39) << endl;
+    cout << "          " << char(47) << " " << char(47) << " " << char(92) << char(95) << " " << char(95) << " " << char(47) << " " << char(92) <<" " << char(92)<< endl;
+    cout << "         " << char(47) << " " << char(92) << " " << char(47) << " " << char(48) << "  " << char(48) << " " << char(92) << " " << char(47) << " " << char(92)<< endl;
+    cout << "        " << char(60) << char(95) << char(58) << "            " << char(58) << char(95) << char(62) << endl;
+    cout << "          " << char(58) << char(95) << " " << char(95) << " " << char(95) << char(44) << char(95) << " " << char(95) << " " << char(95) << " " << char(58) << endl;
+    cout << "          " << char(60) << char(95) << " " << char(95) << " " << char(95) << char(58) << char(95) << " " << char(95) << " " << char(95) << " " << char(62) << endl;
+    
+    system("pause");
+    return 0;
+}
+
